@@ -17,6 +17,7 @@ switch( command ){
       console.log(`Status: `, task.completed);
       console.log(`=======================`.green);
     }
+    
     break;
   case 'update':
     let updated = todo.update(argv.description, argv.completed);
